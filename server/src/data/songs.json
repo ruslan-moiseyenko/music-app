@@ -1,0 +1,410 @@
+[
+  {
+    "id": "bad8088f-7587-4984-b6f4-945a04ffcef5",
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "album": "Hotel California",
+    "year": 1976,
+    "genre": "Rock"
+  },
+  {
+    "id": "605cfa13-bdad-4750-bb8a-d802bdc2fb0c",
+    "title": "Sweet Child o' Mine",
+    "artist": "Guns N' Roses",
+    "album": "Appetite for Destruction",
+    "year": 1987,
+    "genre": "Rock"
+  },
+  {
+    "id": "d5327034-5b9b-4796-97a0-62f74a9b760a",
+    "title": "Like a Prayer",
+    "artist": "Madonna",
+    "album": "Like a Prayer",
+    "year": 1989,
+    "genre": "Pop"
+  },
+  {
+    "id": "c3b39f70-8c7d-457c-bab1-90691a69b395",
+    "title": "Rapper's Delight",
+    "artist": "The Sugarhill Gang",
+    "album": "Sugarhill Gang",
+    "year": 1979,
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "0182d268-64e9-43dc-8c49-4167a13c61e6",
+    "title": "Planet Rock",
+    "artist": "Afrika Bambaataa & Soulsonic Force",
+    "album": "Planet Rock: The Album",
+    "year": 1986,
+    "genre": "Electronic"
+  },
+  {
+    "id": "097ed85c-8e01-446e-9a31-7c25b905d2ae",
+    "title": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "album": "What a Wonderful World",
+    "year": 1970,
+    "genre": "Jazz"
+  },
+  {
+    "id": "303c219b-4147-41f0-b227-37540a06e275",
+    "title": "Sexual Healing",
+    "artist": "Marvin Gaye",
+    "album": "Midnight Love",
+    "year": 1982,
+    "genre": "R&B"
+  },
+  {
+    "id": "23ae9aea-00a2-4848-add3-ac68bbf39878",
+    "title": "Jolene",
+    "artist": "Dolly Parton",
+    "album": "Jolene",
+    "year": 1973,
+    "genre": "Country"
+  },
+  {
+    "id": "2d911fce-cecd-458e-848d-2910bc337641",
+    "title": "Master of Puppets",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "genre": "Metal"
+  },
+  {
+    "id": "bc581504-5a2d-4c8b-85d2-ed4aab1ece24",
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "album": "Thriller",
+    "year": 1982,
+    "genre": "Pop"
+  },
+  {
+    "id": "6ca03779-cc4c-460f-84da-d5147860a0a5",
+    "title": "Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "album": "She's So Unusual",
+    "year": 1983,
+    "genre": "Pop"
+  },
+  {
+    "id": "cc6da9cf-caf2-4ac6-94e1-febee2a9055f",
+    "title": "Super Freak",
+    "artist": "Rick James",
+    "album": "Street Songs",
+    "year": 1981,
+    "genre": "Funk"
+  },
+  {
+    "id": "250b8d75-fe70-4aaf-8243-8c080dea7fa0",
+    "title": "Take on Me",
+    "artist": "A-ha",
+    "album": "Hunting High and Low",
+    "year": 1985,
+    "genre": "Pop"
+  },
+  {
+    "id": "d309b2a7-653b-4c0a-a385-c0871d7efd09",
+    "title": "I Will Survive",
+    "artist": "Gloria Gaynor",
+    "album": "Love Tracks",
+    "year": 1978,
+    "genre": "Disco"
+  },
+  {
+    "id": "7f1c46f8-050f-4ae3-89b8-23d0dddaa0ce",
+    "title": "Jump",
+    "artist": "Van Halen",
+    "album": "1984",
+    "year": 1984,
+    "genre": "Rock"
+  },
+  {
+    "id": "c8c92db3-2a0f-44e4-8e8d-95f916b604ea",
+    "title": "Faith",
+    "artist": "George Michael",
+    "album": "Faith",
+    "year": 1987,
+    "genre": "Pop"
+  },
+  {
+    "id": "5538b858-89cd-469f-9474-bcea7f45e7e5",
+    "title": "Born to Run",
+    "artist": "Bruce Springsteen",
+    "album": "Born to Run",
+    "year": 1975,
+    "genre": "Rock"
+  },
+  {
+    "id": "7372190a-7164-47dd-8a43-37dd184c4b26",
+    "title": "Pump Up the Volume",
+    "artist": "M/A/R/R/S",
+    "album": "Pump Up the Volume",
+    "year": 1987,
+    "genre": "Electronic"
+  },
+  {
+    "id": "07f0fec8-30d6-49e1-b583-2b7518b5a2b8",
+    "title": "Walk This Way",
+    "artist": "Run-D.M.C.",
+    "album": "Raising Hell",
+    "year": 1986,
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "b4f7509f-85ea-45b2-ae3f-fa0fe3d3ebe4",
+    "title": "I Wanna Dance with Somebody",
+    "artist": "Whitney Houston",
+    "album": "Whitney",
+    "year": 1987,
+    "genre": "Pop"
+  },
+  {
+    "id": "e8a62c9d-1ce6-44d5-82bd-a8d2127c0c97",
+    "title": "I Need Love",
+    "artist": "LL Cool J",
+    "album": "Bigger and Deffer",
+    "year": 1987,
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "441e8265-1d24-4d8e-9314-cde509fbaf3b",
+    "title": "Rhythm Nation",
+    "artist": "Janet Jackson",
+    "album": "Rhythm Nation 1814",
+    "year": 1989,
+    "genre": "R&B"
+  },
+  {
+    "id": "441e8265-1d24-4d8e-9314-cde509fbaf3b",
+    "title": "Rhythm Nation",
+    "artist": "Janet Jackson",
+    "album": "Rhythm Nation 1814",
+    "year": 1989,
+    "genre": "R&B"
+  },
+  {
+    "id": "a8f9f951-9a3d-4f76-8ada-0d69f4f50367",
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "album": "Led Zeppelin IV",
+    "year": 1971,
+    "genre": "Rock"
+  },
+  {
+    "id": "c4e85b15-312d-4b5f-b740-3ad1cdb6d7ef",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "A Night at the Opera",
+    "year": 1975,
+    "genre": "Rock"
+  },
+  {
+    "id": "e7d2f5a1-8463-4c9b-9e2b-5d32f1c48dfa",
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "album": "Hotel California",
+    "year": 1976,
+    "genre": "Rock"
+  },
+  {
+    "id": "98b71492-5f3d-48e3-ac64-95a6dd2951ec",
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees",
+    "album": "Saturday Night Fever",
+    "year": 1977,
+    "genre": "Pop"
+  },
+  {
+    "id": "7c5d619f-95e9-4d83-b2bc-0c8a51b3f69a",
+    "title": "Another Brick in the Wall",
+    "artist": "Pink Floyd",
+    "album": "The Wall",
+    "year": 1979,
+    "genre": "Rock"
+  },
+  {
+    "id": "f23a1d67-8c4e-4b7a-b91d-2f8e15c3d0e2",
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "album": "Thriller",
+    "year": 1982,
+    "genre": "Pop"
+  },
+  {
+    "id": "10d8b1e6-3a5c-48f2-a7e5-9f62c5d8b4a9",
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "album": "Appetite for Destruction",
+    "year": 1987,
+    "genre": "Rock"
+  },
+  {
+    "id": "b92c7f4d-1e8a-4e5b-8c7d-6f9a3e2d1b5c",
+    "title": "Nothing Else Matters",
+    "artist": "Metallica",
+    "album": "Metallica",
+    "year": 1991,
+    "genre": "Metal"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "genre": "Rock"
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a",
+    "title": "California Love",
+    "artist": "2Pac ft. Dr. Dre",
+    "album": "All Eyez on Me",
+    "year": 1995,
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b",
+    "title": "Blue Monday",
+    "artist": "New Order",
+    "album": "Power, Corruption & Lies",
+    "year": 1983,
+    "genre": "Electronic"
+  },
+  {
+    "id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+    "title": "Rapper's Delight",
+    "artist": "The Sugarhill Gang",
+    "album": "Sugarhill Gang",
+    "year": 1979,
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "9a8b7c6d-5e4f-3d2c-1b0a-9f8e7d6c5b4a",
+    "title": "I Will Survive",
+    "artist": "Gloria Gaynor",
+    "album": "Love Tracks",
+    "year": 1978,
+    "genre": "Pop"
+  },
+  {
+    "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+    "title": "Master of Puppets",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "genre": "Metal"
+  },
+  {
+    "id": "8f9e0d1c-2b3a-4d5e-6f7c-8a9b0c1d2e3f",
+    "title": "Under Pressure",
+    "artist": "Queen & David Bowie",
+    "album": "Hot Space",
+    "year": 1981,
+    "genre": "Rock"
+  },
+  {
+    "id": "4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d",
+    "title": "Walk This Way",
+    "artist": "Aerosmith",
+    "album": "Toys in the Attic",
+    "year": 1975,
+    "genre": "Rock"
+  },
+  {
+    "id": "0c1d2e3f-4a5b-6c7d-8e9f-0a1b2c3d4e5f",
+    "title": "Juicy",
+    "artist": "The Notorious B.I.G.",
+    "album": "Ready to Die",
+    "year": 1994,
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "6d7e8f9a-0b1c-2d3e-4f5a-6b7c8d9e0f1a",
+    "title": "Da Funk",
+    "artist": "Daft Punk",
+    "album": "Homework",
+    "year": 1997,
+    "genre": "Electronic"
+  },
+  {
+    "id": "2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f",
+    "title": "Killing in the Name",
+    "artist": "Rage Against the Machine",
+    "album": "Rage Against the Machine",
+    "year": 1992,
+    "genre": "Metal"
+  },
+  {
+    "id": "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e",
+    "title": "Losing My Religion",
+    "artist": "R.E.M.",
+    "album": "Out of Time",
+    "year": 1991,
+    "genre": "Rock"
+  },
+  {
+    "id": "4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c",
+    "title": "Vogue",
+    "artist": "Madonna",
+    "album": "I'm Breathless",
+    "year": 1990,
+    "genre": "Pop"
+  },
+  {
+    "id": "0e1f2a3b-4c5d-6e7f-8a9b-0c1d2e3f4a5b",
+    "title": "Around the World",
+    "artist": "Daft Punk",
+    "album": "Homework",
+    "year": 1997,
+    "genre": "Electronic"
+  },
+  {
+    "id": "6c7d8e9f-0a1b-2c3d-4e5f-6a7b8c9d0e1f",
+    "title": "No Woman, No Cry",
+    "artist": "Bob Marley & The Wailers",
+    "album": "Natty Dread",
+    "year": 1974,
+    "genre": "Rock"
+  },
+  {
+    "id": "2a3b4c5d-6e7f-8a9b-0c1d-2e3f4a5b6c7d",
+    "title": "Enter Sandman",
+    "artist": "Metallica",
+    "album": "Metallica",
+    "year": 1991,
+    "genre": "Metal"
+  },
+  {
+    "id": "8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b",
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "album": "What's the Story Morning Glory?",
+    "year": 1995,
+    "genre": "Rock"
+  },
+  {
+    "id": "4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f",
+    "title": "My Name Is",
+    "artist": "Eminem",
+    "album": "The Slim Shady LP",
+    "year": 1999,
+    "genre": "Hip Hop"
+  },
+  {
+    "id": "0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+    "title": "I Want You Back",
+    "artist": "The Jackson 5",
+    "album": "Diana Ross Presents The Jackson 5",
+    "year": 1970,
+    "genre": "Pop"
+  },
+  {
+    "id": "6e7f8a9b-0c1d-2e3f-4a5b-6c7d8e9f0a1b",
+    "title": "...Baby One More Time",
+    "artist": "Britney Spears",
+    "album": "...Baby One More Time",
+    "year": 1999,
+    "genre": "Pop"
+  }
+]

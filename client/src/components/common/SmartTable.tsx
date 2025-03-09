@@ -12,7 +12,8 @@ import {
   Typography,
   IconButton,
   Tooltip,
-  CircularProgress
+  CircularProgress,
+  TablePagination
 } from "@mui/material";
 import { Favorite, FavoriteBorder } from "@mui/icons-material";
 import { Column, SortConfig, SortDirection } from "../../types/song.types";
@@ -40,6 +41,19 @@ export function SmartTable<T extends Record<string, any>>({
     key: columns[0]?.id as any,
     direction: "asc"
   });
+  const [page, setPage] = useState<number>(0);
+  const [rowsPerPage, setRowsPerPage] = useState<number>(10);
+
+  const handleChangePage = (event: unknown, newPage: number) => {
+    setPage(newPage);
+  };
+
+  const handleChangeRowsPerPage = (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    setRowsPerPage(parseInt(event.target.value, 10));
+    setPage(0);
+  };
 
   const handleRequestSort = (property: any) => {
     const isAsc = sortConfig.key === property && sortConfig.direction === "asc";
@@ -64,6 +78,13 @@ export function SmartTable<T extends Record<string, any>>({
     }
     return sortableData;
   }, [data, sortConfig]);
+
+  const paginatedData = useMemo(() => {
+    return sortedData.slice(
+      page * rowsPerPage,
+      page * rowsPerPage + rowsPerPage
+    );
+  }, [sortedData, page, rowsPerPage]);
 
   const getSortDirection = (column: string): SortDirection | false => {
     return sortConfig.key === column ? sortConfig.direction : false;
@@ -140,7 +161,7 @@ export function SmartTable<T extends Record<string, any>>({
                 </TableCell>
               </TableRow>
             ) : (
-              sortedData.map((row, index) => {
+              paginatedData.map((row, index) => {
                 return (
                   <TableRow hover tabIndex={-1} key={row.id || index}>
                     {columns.map((column) => {
@@ -185,6 +206,19 @@ export function SmartTable<T extends Record<string, any>>({
           </TableBody>
         </Table>
       </TableContainer>
+      <TablePagination
+        rowsPerPageOptions={[5, 10, 25, 50]}
+        component="div"
+        count={sortedData.length}
+        rowsPerPage={rowsPerPage}
+        page={page}
+        onPageChange={handleChangePage}
+        onRowsPerPageChange={handleChangeRowsPerPage}
+        labelRowsPerPage="Rows per page:"
+        labelDisplayedRows={({ from, to, count }) =>
+          `${from}-${to} из ${count}`
+        }
+      />
     </Paper>
   );
 }
